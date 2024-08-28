@@ -23,7 +23,7 @@ if (ZoomEl.ElementFromPathExist("cA") && CAS := ZoomEl.ElementFromPathExist("X0/
 }
 
 somelable:	
-NewStr := StrReplace(CAS.Name, istalk, "")
+NewStr := StrReplace(CAS.Name, istalk, "", 1)
 If CAS = "Meeting Information, with Security Warnings" {
     Sleep 1000
     SoundSetMute false
@@ -35,8 +35,8 @@ If CAS = "Meeting Information, with Security Warnings" {
 }
 }
 
-; You can find the exact participant, special fonts, and copy paste with UAI.ahk by undocking and maximizing Participants in Zoom Meeting then Capture, ect etc. 
-; ADD/DELETE/PARTICIPANTS Instructions:::: create a file called pb.txt in the same dir as piggly.ahk and add or delete participant's names 1 per row then just reload piggly.ahk 
+; You can find the exact participant, special fonts emojis, and copy paste with UAI.ahk by undocking and maximizing Participants in Zoom Meeting then Capture, ect etc. 
+; ADD/DELETE/PARTICIPANTS Instructions:::: create a file called pb.txt in the same dir as piggly.ahk and add or delete participant's names 1 per line then just reload piggly.ahk 
 ; 
 ; Just wanted to see if it was possible and do find the script useful especially when falling asleep to a meeting.
 ; It's called piggly.ahk because DON'T HOG THE MIC!
