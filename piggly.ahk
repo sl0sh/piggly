@@ -1,3 +1,4 @@
+; tested on ZOOM MEETING Version: 5.17.7 (31859)
 ; This is an AutoHotKey 2.0 script for the Alcoholics Anonymous 24 Hour International Zoom Meeting that lets you automatically mute any participant upon sharing
 ; automatically for whatever reason you might not want to hear their audio.   May work with other zoom meetings, but never tested. 
 ; requirements in Zoom:
